@@ -39,9 +39,9 @@ PART 4: we make them move like a wave
 WRAP-UP:
 
 1. Copy your code into your (forked) WoodstockWave repo's `.pde` file
-1. Update the header and footer text of `index.html`.
-1. Go to the `Settings` page for your repo, and scroll down to the `Pages` section. Change the `Source` to `main`, then click the `save` button.
-1. Check your work at `<YourUsername>.github.io/WoodstockWave`. (You can also find this link by scrolling down to the middle of your settings page.)
+1. Put `index.html` into edit mode and update the two REPLACE MEs.
+1. Go to the `Settings` page for your repo. Go to the `Pages` section. Change the `Source` to `main`, then click the `save` button.
+1. Load your page (github usually takes a few minutes to publish it!).
 
 ## Take it further
 Optionally, if you're interested in exploring other sketches like this one, check out Jerome Herr's page linked in the credits below. You can click on any of his designs to see them, and then click on the little `</>` button at the top of the page to see the code. 
