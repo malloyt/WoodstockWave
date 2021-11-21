@@ -25,8 +25,9 @@ PART 3: we make the arcs move
 
 1. now set the `arcEnd`'s initial value to be the same as `arcStart`'s initial value.
 2. then in the last line of the draw function, increment `arcEnd` by 0.05
-3. run your sketch: you should see a set of arcs wrap around to close themselves.
-4. try out other values to see what happens.
+3. if you don't already call `background(...);` at the start of the draw function, do that
+4. run your sketch: you should see a set of arcs wrap around to close themselves.
+5. try out other values to see what happens.
 
 PART 4: we make them move like a wave
 
