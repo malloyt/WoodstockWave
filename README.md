@@ -34,8 +34,11 @@ PART 4: we make them move like a wave
 1. we need a stopping point for the movement. declare a new global (above the setup function) variable called `maxArcEnd` and set its initial value to `TWO_PI`. (THINK ABOUT: What is the appropriate data type for this variable?)
 1. in the same way, declare two more global (above setup) variables called `movement` and `speed`. Set the initial value of `movement` to 0.0 and set the initial value of `speed` to `PI/60`.
 1. and we'll make the movement bounce like a wave. This part has some math which you don't need to worry about. Just paste this line into the `while` loop in the line above where you draw the arc: `arcEnd = map(sin(movement + (maxArcEnd / num * i)), -1, 1, arcStart, maxArcEnd);`
-1. Remember above where you incremented `arcEnd` by 0.05? Replace that line with a line where you increment `movement` by `speed`.
-1. test and tinker.
+1. Your code will probably give you some errors at this point, because of `num` and `i` in that formula. To handle those errors:
+   1. change `num` to whatever variable is controlling your loop (the variable you're checking inside the while conditional)
+   2. and create a counter variable called `i`. (initialize `i` to 0 outside the loop, and increment it inside the loop)
+3. Remember above where you incremented `arcEnd` by 0.05? Replace that line with a line where you increment `movement` by `speed`.
+4. test and tinker.
 
 WRAP-UP:
 
